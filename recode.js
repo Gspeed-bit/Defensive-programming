@@ -24,7 +24,7 @@ const getOverAge = () => {
     // Handle overage people
     const prescription = getUserPrescription()
     const drugGram = getDrugGram();
-    prescription == null ? console.log("Ooopss Sorry you can't order this drug because you dont have doctors prescription") : drugGram < 400 || prescription === 419 ?
+    prescription == null ? console.log("Ooopss Sorry you can't order this drug because you dont have doctors prescription") : drugGram < 400 || prescription === 000 ?
         console.log("Your drug will be shipped to you very soon") :
         drugGram >= 400 || prescription ?
             console.log("Your drug will be shipped to you very soon once your doctors prescription is verified ") :
