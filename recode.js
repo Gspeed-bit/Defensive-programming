@@ -14,7 +14,7 @@ const getUnderAge = () => {
     const prescription = getUserPrescription()
     const drugGram = getDrugGram()
     prescription == null ? console.log(`Ooopss Sorry you can't order this drug because you are under age and you dont have doctors prescription `) :
-        drugGram < 400 || prescription === 419 ? console.log("Your drug will be shipped to you very soon") :
+        drugGram < 400 || prescription === 000 ? console.log("Your drug will be shipped to you very soon") :
             drugGram >= 400 || prescription ? console.log(" You are underage but you have got a doctor prescription 😉😉 Note: Once the doctors prescription is verified we will ship your Drug") :
                 console.log("Sorry you can't order this drug because you are under age and you dont have doctors prescription");
 
