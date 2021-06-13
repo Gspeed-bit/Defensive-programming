@@ -3,7 +3,7 @@ const getDrugGram = () => {
     return drugGram;
 }
 const getUserPrescription = () => {
-    const prescription = prompt("kindly submit your doctor's prescription code", 'If drug grams is lower than 400g enter (419)');
+    const prescription = prompt("kindly submit your doctor's prescription code", 'If drug grams is lower than 400g enter (000)');
     return prescription;
 }
 
