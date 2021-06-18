@@ -1,5 +1,5 @@
 const getDrugGram = () => {
-    const drugGram = prompt("How many gram do you wanna order?",);
+    const drugGram = prompt("How many gram do you want to order?",);
     return drugGram;
 }
 const getUserPrescription = () => {
